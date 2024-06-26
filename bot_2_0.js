@@ -34,7 +34,7 @@ client.on("message", async msg => {
         user_timezone_offset: -180,  // Offset de fuso horário GMT-3 em minutos (-3 horas)
     };
 
-    const url = `http://127.0.0.1:5000/chat?numero=${numero}`;
+    const url = `https://4268888Isaias.pythonanywhere.com/chat?numero=${numero}`;
                 
 
     // Configuração do cabeçalho para indicar que estamos enviando JSON
