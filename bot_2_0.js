@@ -5,6 +5,10 @@ const axios = require('axios');
 const app = express();
 
 const client = new Client({
+    puppeteer: {
+      headless: true,
+      args: ['--no-sandbox']
+  },
     authStrategy: new LocalAuth({
         clientId: "client-one"
     }),
